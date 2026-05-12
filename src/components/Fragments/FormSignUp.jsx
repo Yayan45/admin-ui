@@ -1,6 +1,6 @@
 import Button from "../Elements/Button";
 import LabeledInput from "../Elements/LabeledInput";
-
+import { Link } from "react-router-dom";
 function FormSignUp() {
   return (
     <>
@@ -93,7 +93,9 @@ function FormSignUp() {
       {/* link start */}
       <div className="cursor-pointer my-4 text-sm text-gray-03 flex justify-center">
         <p className="mx-2">Already have an account?</p>
-        <a className="text-primary"> sign in here</a>
+        <Link to="/login" className="text-primary font-bold">
+          Sign In Here
+        </Link>
       </div>
       {/* link end */}
     </>

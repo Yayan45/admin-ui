@@ -1,6 +1,6 @@
 import MainLayout from "../components/Layouts/MainLayout";
 
-function balance() {
+function Balance() {
   return (
     <>
       <MainLayout>Test Balance Page</MainLayout>
@@ -8,4 +8,4 @@ function balance() {
   );
 }
 
-export default balance;
+export default Balance;

@@ -5,6 +5,7 @@ import SignUpPage from "./pages/SignUp";
 // import { Link } from "react-router-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Dashboard from "./pages/dashboard";
+import BalancePage from "./pages/Balance";
 
 function App() {
   const myRouter = createBrowserRouter([
@@ -19,6 +20,10 @@ function App() {
     {
       path: "/register",
       element: <SignUpPage />,
+    },
+    {
+      path: "/balance",
+      element: <BalancePage />,
     },
   ]);
 

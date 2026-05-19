@@ -4,7 +4,7 @@ import SignUpPage from "./pages/SignUp";
 // import ErrorPage from "./pages/Error";
 // import { Link } from "react-router-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Dashboard from "./pages/dashboard";
+import Dashboard from "./pages/Dashboard";
 import BalancePage from "./pages/Balance";
 
 function App() {

@@ -24,7 +24,7 @@ describe("User login", () => {
   });
 
   it("should not allow user to log in with invalid credentials", () => {
-    cy.visit("http://localhost:5173/");
+    cy.visit("https://admin-ui-omega-blue.vercel.app/");
 
     cy.url().should("include", "/login");
 

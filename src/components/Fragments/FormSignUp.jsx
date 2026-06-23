@@ -15,7 +15,7 @@ function FormSignUp() {
               label="Name"
               id="name"
               type="text"
-              placeholder="John Doe"
+              placeholder="Name"
               name="name"
             />
           </div>

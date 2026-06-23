@@ -1,6 +1,6 @@
 describe("User login", () => {
   it("should allow user to log in with valid credentials", () => {
-    cy.visit("http://localhost:5173/");
+    cy.visit("https://admin-ui-omega-blue.vercel.app/");
 
     cy.url().should("include", "/login");
 
